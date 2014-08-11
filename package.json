@@ -1,0 +1,14 @@
+{
+  "name": "git-cola",
+  "main": "./lib/git-cola",
+  "version": "0.0.0",
+  "description": "Provide a better git interface",
+  "activationEvents": ["git-cola:toggle"],
+  "repository": "https://github.com/atom/git-cola",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
