@@ -7,7 +7,8 @@ class GitColaView extends View
       @div "The GitCola package is Alive! It's ALIVE!", class: "message"
 
   initialize: (serializeState) ->
-    @git = atom.project.getRepo()
+    # @git = atom.project.getRepo()
+    # console.log(@git.getDiffStats('.'))
     atom.workspaceView.command "git-cola:toggle", => @toggle()
 
   # Returns an object that can be retrieved when package is activated
